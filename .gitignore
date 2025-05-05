@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 数据文件
+*.csv
+*.h5
+*.pkl
+*.db
+*.sqlite
+*.zip
+*.npy
+*.npz
+data/
+
+# VSCode
+.vscode/
+
+# 环境
+.env
+.venv/
+venv/
+
+# MacOS
+.DS_Store 
