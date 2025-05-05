@@ -12,8 +12,21 @@
 
 ## 快速开始
 
-1. 安装依赖：`pip install -r requirements.txt`
-2. 运行示例回测：`python backtest/sample_backtest.py`
+1. 创建并激活环境：
+   ```bash
+   uv venv
+   source .venv/bin/activate
+   ```
+
+2. 安装依赖：
+   ```bash
+   uv pip install -r requirements.txt
+   ```
+
+3. 运行示例回测：
+   ```bash
+   python backtest/sample_backtest.py
+   ```
 
 ## 依赖环境
-详见 requirements.txt。 
+本项目使用 uv 进行环境管理，详细依赖列表见 requirements.txt。 
