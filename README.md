@@ -18,9 +18,9 @@
    source .venv/bin/activate
    ```
 
-2. 安装依赖：
+2. 安装依赖（使用阿里云镜像源）：
    ```bash
-   uv pip install -r requirements.txt
+   uv pip install --index-url https://mirrors.aliyun.com/pypi/simple/ -r requirements.txt
    ```
 
 3. 运行示例回测：
